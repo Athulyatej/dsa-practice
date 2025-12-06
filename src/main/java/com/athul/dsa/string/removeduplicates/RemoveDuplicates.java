@@ -1,4 +1,4 @@
-package com.athul.dsa.string;
+package com.athul.dsa.string.removeduplicates;
 
 import java.util.HashSet;
 import java.util.Scanner;

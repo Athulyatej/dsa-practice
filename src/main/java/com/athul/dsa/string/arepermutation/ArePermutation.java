@@ -1,4 +1,4 @@
-package com.athul.dsa.string;
+package com.athul.dsa.string.arepermutation;
 
 import java.util.Arrays;
 import java.util.Scanner;
