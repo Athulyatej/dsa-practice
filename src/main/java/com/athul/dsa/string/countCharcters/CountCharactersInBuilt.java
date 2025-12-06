@@ -1,4 +1,4 @@
-package com.athul.dsa.string;
+package com.athul.dsa.string.countCharcters;
 
 import java.util.Scanner;
 

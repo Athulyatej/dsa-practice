@@ -1,4 +1,4 @@
-package com.athul.dsa.string;
+package com.athul.dsa.string.shortestpath;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.athul.dsa.string;
+package com.athul.dsa.string.vowelfind;
 
 import java.util.Scanner;
 
