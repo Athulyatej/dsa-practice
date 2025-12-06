@@ -1,0 +1,9 @@
+Run length encoding for string compression
+
+if the compressed string is bigger than original, return the original string
+
+input: aaabbccddee
+output: a3b2c2d2e2
+
+input: abcd
+output: abcd
