@@ -1,7 +1,5 @@
 Remove Duplicates
-Given a string S, the task is to remove all the duplicates from the given string
-
-and return the updated string in sorted order.
+Given a string S, the task is to remove all the duplicates from the given string and return the updated string in sorted order.
 
 Input Format
 
