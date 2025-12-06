@@ -1,0 +1,9 @@
+Find Displacement
+
+Given a long route containing N, S, E, W directions, find the shortest path to reach the location.
+
+Sample input
+SNNNEWE
+
+Sample output
+NNE
