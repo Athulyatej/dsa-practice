@@ -1,0 +1,13 @@
+The problem statement of the mango trees is concerned with maximizing the minimum number of trees Rahul can obtain after his sister selects a number of larger fields.
+Here's a breakdown of the problem:
+
+Context: Rahul has the opportunity to decide where to make cuts in a field to divide it into smaller sections.
+His sister will choose a certain number of larger fields.
+
+Objective: The goal is for Rahul to maximize the number of trees he can get based on the cuts he makes.
+Specifically, this means he wants to maximize the smallest number of trees in any section formed after making those cuts.
+
+Example: If there are six trees in the initial arrangement, and by making specific cuts,
+Rahul can create partitions with varying numbers of trees, he aims to create sections such that the minimum number of trees in any section is as large as possible.
+
+In summary, the main task is to determine how to partition the fields such that Rahul's smallest section, in terms of the number of trees, is maximized.
