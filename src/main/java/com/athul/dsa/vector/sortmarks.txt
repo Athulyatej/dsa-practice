@@ -1,0 +1,9 @@
+Rank students based on their total marks in three subjects.
+The data is organized as a vector of pairs, where each pair contains a student's name (as a string) and their marks (as a vector of integers).
+
+{"Rohan", {80, 90, 85}},
+{"Prateek", {70, 60, 80}},
+{"Vivek", {50, 45, 55}},
+{"Rachel", {90, 100, 95}}
+
+The challenge is to sort this list of students based on their total marks rather than their names.
