@@ -5,22 +5,12 @@ import java.util.BitSet;
 
 public class SubsetSumQueries {
     public static void main(String[] args) {
-        int[] num   = {1, 2, 3};
+        int[] num = {1, 2, 3};
         int[] query = {5, 3, 8};
         System.out.println(subsetSum(num, query));
     }
 
-    private static void shiftLeft(BitSet bs, int n) {
-        for(int j = 0 ; j < n; j++) {
-            for (int i = bs.length() - 1; i >= 0; i = bs.previousSetBit(i - 1)) {
-                bs.clear(i);
-                bs.set(i + 1);
-            }
-        }
-    }
-
-    private static ArrayList<Boolean> subsetSum(int[] v, int[] q)
-    {
+    private static ArrayList<Boolean> subsetSum(int[] v, int[] q) {
         ArrayList<Boolean> b = new ArrayList<>();
 
         BitSet bit = new BitSet(10000);
@@ -40,7 +30,15 @@ public class SubsetSumQueries {
                 b.add(false);
             }
         }
-
         return b;
+    }
+
+    private static void shiftLeft(BitSet bs, int n) {
+        for (int j = 0; j < n; j++) {
+            for (int i = bs.length() - 1; i >= 0; i = bs.previousSetBit(i - 1)) {
+                bs.clear(i);
+                bs.set(i + 1);
+            }
+        }
     }
 }
