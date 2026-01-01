@@ -1,4 +1,4 @@
-package com.athul.dsa.vector;
+package com.athul.dsa.vector.makezeroes;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.athul.dsa.twodarray;
+package com.athul.dsa.twodarray.waveprint;
 
 public class WavePrint {
     public static void main(String[] args) {

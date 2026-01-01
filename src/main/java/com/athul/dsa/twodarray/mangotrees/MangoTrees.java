@@ -1,4 +1,4 @@
-package com.athul.dsa.twodarray;
+package com.athul.dsa.twodarray.mangotrees;
 
 import java.util.Arrays;
 

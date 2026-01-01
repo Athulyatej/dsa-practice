@@ -1,4 +1,4 @@
-package com.athul.dsa.twodarray;
+package com.athul.dsa.twodarray.submatrixsum;
 
 import java.util.Arrays;
 import java.util.Scanner;

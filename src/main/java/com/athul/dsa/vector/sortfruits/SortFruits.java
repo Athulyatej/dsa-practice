@@ -1,4 +1,4 @@
-package com.athul.dsa.vector;
+package com.athul.dsa.vector.sortfruits;
 
 import java.util.*;
 import java.util.stream.Collectors;
