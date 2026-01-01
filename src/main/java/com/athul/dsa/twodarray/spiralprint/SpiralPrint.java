@@ -1,4 +1,4 @@
-package com.athul.dsa.twodarray;
+package com.athul.dsa.twodarray.spiralprint;
 
 public class SpiralPrint {
     public static void main(String[] args) {

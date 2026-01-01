@@ -1,4 +1,4 @@
-package com.athul.dsa.vector;
+package com.athul.dsa.vector.sortmarks;
 
 import java.util.ArrayList;
 import java.util.Comparator;

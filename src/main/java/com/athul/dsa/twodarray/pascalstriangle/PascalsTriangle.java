@@ -1,4 +1,4 @@
-package com.athul.dsa.twodarray;
+package com.athul.dsa.twodarray.pascalstriangle;
 
 import java.util.Scanner;
 

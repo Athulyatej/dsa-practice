@@ -1,0 +1,18 @@
+Modulo Exponentiation
+Given three numbers x, y and mod, compute x raised to power y modulo mod i.e.  (x^y)%mod
+
+Input Format
+
+Three integers x, y and mod are passed.
+
+Output Format
+
+Return an integer
+
+Sample Input
+
+x = 12, y = 25, mod = 10007
+
+Sample Output
+
+9603
