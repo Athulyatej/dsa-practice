@@ -1,0 +1,25 @@
+Implement merge sort for a two-dimensional array. In case of odd dimension, the first division contains more number of elements than the second one.
+The complete execution of merge sort arranges the elements in increasing order either moving row-wise or column-wise.
+
+For example, let there be a 4×4 two dimensional array.
+The complete process to be implemented is illustrated in Fig. 1. Similarly, Fig. 2 demonstrates the scenario for a 3×3 two dimensional array.
+One has to keep on dividing till a single element is remaining.
+During merging, first the row elements get sorted in increasing order followed by sorting of elements lying in the same column
+
+
+18 4  16 8            18 4   |  16 8           18  | 4    |  16  |  8          4  18 8  16            4  18 8  16            4  8  16 18                1  8  16 18
+23 13 20 11     ->    23 13  |  20 11    ->    ---------  |  ---------    ->   13 23 11 20       ->   13 23 11 20      ->    11 13 20 23       ->       4  13 19 23
+28 24 26 25           ---------------          23  | 13   |  20  |  11         24 28 25 26            1  28 15 19            1  15 19 28                11 15 20 28
+1  30 15 19           28 24  |  26 25          -----------------------         1  30 15 19            24 30 25 26            24 25 26 30                24 25 26 30
+                      1  30  |  15 19          28  |  24  |  26  |  25
+                                               ---------  |  ---------
+                                               1   |  30  |  15  |  19
+
+
+
+
+18 9  11             18 9  |  11               18  |  9   |  11                9  18 11               1  4  11             1  4  11              1  4  11
+1  4  15     ->      1  4  |  15        ->     ---------- | ----     ->        1  4  15       ->      9  18 15     ->      9  15 18       ->     9  15 18
+13 23 20             -----------               1   |  4   |  15                13 23 20               13 23 20             13 20 23              13 20 23
+                     13 23 |  20               ---------- | ----
+                                               13  |  23  |  20
